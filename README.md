@@ -21,6 +21,17 @@
 
 ---
 
+## 💾 Data Persistence
+
+RadioGo v2 stores your stations and liked songs in a local SQLite database named `store.db`.
+
+> [!IMPORTANT]
+> The `store.db` file is created in the **current working directory** from which the application is launched. 
+> 
+> To ensure your station list and liked songs are always available, it is best to run RadioGo from a dedicated directory. If you run it from different folders, multiple `store.db` files will be created, and your data won't be synced between them.
+
+---
+
 ## 🛠️ Prerequisites
 
 RadioGo v2 relies on **FFmpeg** for audio decoding and playback.
@@ -35,8 +46,16 @@ RadioGo v2 relies on **FFmpeg** for audio decoding and playback.
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation & Usage
 
+### Using the Pre-built Executable
+If you have `radiogo.exe`, you can run it directly from your terminal. Ensure [FFmpeg](#-prerequisites) is installed and in your PATH.
+
+```bash
+./radiogo.exe
+```
+
+### Install via Go
 You can install RadioGo v2 directly using `go install`:
 
 ```bash
@@ -94,6 +113,16 @@ Here are some stations to get you started:
 ## 📄 License
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+*Built with ❤️ using [Bubble Tea](https://github.com/charmbracelet/bubbletea)*
+
+---
+
+> [!NOTE]
+> This project and its documentation were co-authored with the assistance of **Gemini CLI**.
+he **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
