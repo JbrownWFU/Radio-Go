@@ -54,6 +54,18 @@ go build -o radiogo ./cmd/radiogo/main.go
 
 ---
 
+## 📡 Sample Stations
+
+Here are some stations to get you started:
+
+| Station | Stream URL | Website |
+| :--- | :--- | :--- |
+| **WFMU** - Freeform Radio | http://stream0.wfmu.org/freeform-high.aac | [wfmu.org](https://wfmu.org/) |
+| **Delicious Agony** - Progressive Rock | http://deliciousagony.streamguys1.com/ | [deliciousagony.com](https://www.deliciousagony.com/) |
+| **KEXP** - Seattle | https://kexp.streamguys1.com/kexp160.aac | [kexp.org](https://www.kexp.org/) |
+
+---
+
 ## ⌨️ Keybindings
 
 | Key | Action |
