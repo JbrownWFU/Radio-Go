@@ -48,8 +48,8 @@ Alternatively, build it from source:
 ```bash
 git clone https://github.com/JbrownWFU/Radio-Go.git
 cd Radio-Go
-go build -o radiogo ./cmd/radiogo/main.go
-./radiogo
+go build -o radiogo.exe ./cmd/radiogo/main.go
+./radiogo.exe
 ```
 
 ---
